@@ -1,4 +1,7 @@
 import firebase from "firebase";
+// this firebase is provided by cleverprog
+// to give us access to the db
+// config for logging in and out, authentication, and the store
 
 const firebaseConfig = {
   apiKey: "AIzaSyA9BnlX96fMf7XiUVCFRsoQzG8DGERJkeY",
