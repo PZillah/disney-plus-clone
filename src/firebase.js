@@ -1,16 +1,13 @@
 import firebase from "firebase";
-// this firebase is provided by cleverprog
-// to give us access to the db
-// config for logging in and out, authentication, and the store
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA9BnlX96fMf7XiUVCFRsoQzG8DGERJkeY",
-  authDomain: "disneyplus-clone-a33d5.firebaseapp.com",
-  projectId: "disneyplus-clone-a33d5",
-  storageBucket: "disneyplus-clone-a33d5.appspot.com",
-  messagingSenderId: "37918794208",
-  appId: "1:37918794208:web:dbe9842dfe1dda522a4b85",
-  measurementId: "G-DRVLJKWRWG",
+  apiKey: "AIzaSyB9UHrhPcr0BC-fPxRHTu_A81w2cywNdxI",
+  authDomain: "disney-plus-clone-9fc2e.firebaseapp.com",
+  projectId: "disney-plus-clone-9fc2e",
+  storageBucket: "disney-plus-clone-9fc2e.appspot.com",
+  messagingSenderId: "303630834295",
+  appId: "1:303630834295:web:3e9f6ae6c7cc6aac3c0472",
+  measurementId: "G-LNGFBKXC54"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
